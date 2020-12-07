@@ -1,0 +1,470 @@
+html {
+  line-height: 1;
+  font-size: 16px;
+}
+body {
+  font-family: 'MuseoRegular', Arial, sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: #f8de01;
+}
+
+
+img {
+  vertical-align: middle;
+}
+
+textarea {
+  resize: none;
+}
+section {
+  position: relative;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.default:before,
+.default:after {
+  content: " ";
+  display: table;
+}
+.default:after {
+  clear: both;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  min-height: 100%;
+}
+.g_btn {
+  background: url("") no-repeat;
+  height: 55px;
+  width: 200px;
+  display: block;
+  line-height: 55px;
+  text-align: center;
+  color: #9cf801;
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+.g_input {
+  border: 1px solid #fff;
+  height: 50px;
+  padding: 0 10px;
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 18px;
+  font-size: 1.125rem;
+  color: #fff;
+}
+
+.g_input_submit {
+  color: #f8de01;
+  border: 1px solid #f8de01;
+  border-radius: 4px;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-family: 'MuseoBold', Arial, sans-serif;
+  height: 50px;
+  padding: 0 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header {
+  height: 106px;
+  border-bottom: 1px dashed #f8de01;
+  position: relative;
+}
+.header_logo {
+  position: absolute;
+  top: 15px;
+  left: 64px;
+}
+.header_logo a {
+  display: block;
+}
+.header_nav {
+  float: right;
+  padding: 40px 0;
+  height: 106px;
+}
+.header_nav__list li {
+  display: inline-block;
+  padding: 0 12px;
+  border-right: 1px solid #ffae00;
+}
+.header_nav__list li:last-child {
+  border-right: none;
+}
+.header_nav__list li a {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  background: url("../img/main_bg.png") center 0 no-repeat;
+}
+.slide {
+  height: 715px;
+  overflow: hidden;
+}
+.slide_info {
+  padding-top: 140px;
+  float: left;
+  max-width: 40%;
+  width: 100%;
+}
+.slide_info h1 {
+  font-family: 'MuseoBold', Arial, sans-serif;
+  font-size: 65px;
+  font-size: 4rem;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-bottom: 46px;
+}
+.slide_info p {
+  margin-bottom: 60px;
+  line-height: 20px;
+}
+.home .container {
+  padding-bottom: 1px;
+}
+.slide_img_wrap {
+  width: 50%;
+  min-width: 356px;
+  padding-top: 78px;
+  float: right;
+}
+.slide_img_wrap img {
+  width: 100%;
+}
+.slick-dots {
+  bottom: 58px;
+}
+.slick-dots li.slick-active button {
+  background-image: url("");
+  background-position: 0px 0px;
+  width: 22px;
+  height: 11px;
+}
+.slick-dots li button {
+  background-image: url("");
+  background-position: -37px 0px;
+  width: 22px;
+  height: 11px;
+}
+.slick-dots li button:before {
+  content: '';
+}
+.info_categories {
+  padding-bottom: 110px;
+}
+.info_category {
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 46px;
+  background-color: #000;
+  max-width: 563px;
+  width: 100%;
+  height: 266px;
+  position: relative;
+}
+.info_category img {
+  width: 100%;
+}
+.info_category:nth-child(2n+2) {
+  margin-right: 0;
+}
+.info_category--yellow h3,
+.info_category--yellow p {
+  color: #fff;
+}
+.info_category--black h3,
+.info_category--black p {
+  color: #000;
+}
+.info_category >img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.info_category h3 {
+  text-transform: uppercase;
+  line-height: 32px;
+  margin-bottom: 24px;
+  font-size: 25px;
+  font-size: 1.5625rem;
+}
+.info_category p {
+  margin-bottom: 29px;
+  line-height: 20px;
+}
+.info_category__info {
+  position: relative;
+  z-index: 1;
+  padding-top: 40px;
+  padding-left: 40px;
+  max-width: 266px;
+  width: 100%;
+}
+.btn_more {
+  display: inline-block;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-family: MuseoBold;
+  padding: 10px 0;
+}
+.btn_more--yellow {
+  color: #f8de01;
+}
+.btn_more--yellow:hover {
+  color: #ffae00;
+}
+.btn_more--yellow:after {
+  content: '';
+  display: inline-block;
+  margin-left: 12px;
+  background-image: url("../img/sprite/sprite.png");
+  background-position: -27px -26px;
+  width: 12px;
+  height: 16px;
+}
+.btn_more--black {
+  color: #000;
+}
+.btn_more--black:hover {
+  color: #444;
+}
+.btn_more--black:after {
+  content: '';
+  display: inline-block;
+  margin-left: 12px;
+  background-image: url("../img/sprite/sprite.png");
+  background-position: 0px -26px;
+  width: 12px;
+  height: 16px;
+}
+.products h2,
+.performance h2 {
+  font-size: 42px;
+  font-size: 2.625rem;
+  color: #000;
+  text-align: center;
+  margin-bottom: 45px;
+  text-transform: uppercase;
+  font-family: 'MuseoBold', Arial, sans-serif;
+}
+.products p,
+.performance p {
+  max-width: 924px;
+  width: 100%;
+  color: #000;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 80px;
+}
+.products {
+  padding-bottom: 70px;
+}
+.product {
+  float: left;
+  max-width: 373px;
+  width: 100%;
+  padding: 12px;
+  background-color: #fff;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+.product:last-child {
+  margin-right: 0;
+}
+.product_img_wrap {
+  height: 250px;
+  background-color: #dde6e8;
+  text-align: center;
+  line-height: 250px;
+}
+.product_info {
+  padding: 0 10px;
+  padding-top: 16px;
+}
+.product_info__name {
+  float: left;
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-family: 'MuseoBold', Arial, sans-serif;
+  color: #000;
+}
+.product_info__price {
+  float: right;
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-family: 'MuseoBold', Arial, sans-serif;
+  color: #000;
+}
+.performance {
+  padding-top: 185px;
+  padding-bottom: 30px;
+}
+.performance h2 {
+  text-align: left;
+}
+.performance p {
+  text-align: left;
+  max-width: 526px;
+  margin: 0;
+  margin-bottom: 58px;
+}
+.performance .g_btn {
+  color: #000;
+  background: url("../img/rect_bg_button_b.png") no-repeat;
+  width: 170px;
+  font-family: 'MuseoBold', Arial, sans-serif;
+}
+.performance .g_btn:hover {
+  color: #ffae00;
+}
+.performance__img_wrap {
+  position: absolute;
+  bottom: -30px;
+  right: 100px;
+}
+.performance--down {
+  padding-bottom: 324px;
+}
+.performance--down .performance__info {
+  float: right;
+}
+.performance--down h2 {
+  color: #fff;
+}
+.performance--down .performance__img_wrap {
+  max-width: 553px;
+  width: 100%;
+  left: -78px;
+  top: -95px;
+}
+.performance--down .g_btn:hover {
+  color: #444;
+}
+.newsletter {
+  padding-top: 80px;
+  padding-bottom: 98px;
+}
+.newsletter_text {
+  float: left;
+}
+.newsletter_text span {
+  font-size: 26px;
+  font-size: 1.625rem;
+  font-family: 'MuseoBold', Arial, sans-serif;
+  margin-bottom: 10px;
+  display: block;
+}
+.newsletter_text span.bigger {
+  color: #f8de01;
+  font-size: 35px;
+  font-size: 2.1875rem;
+  font-family: 'MuseoBold', Arial, sans-serif;
+}
+.newsletter_form {
+  padding-right: 40px;
+  padding-top: 15px;
+  float: right;
+}
+.footer_top {
+  padding-top: 190px;
+  padding-bottom: 105px;
+}
+.footer_left {
+  vertical-align: top;
+  display: inline-block;
+  max-width: 400px;
+  width: 100%;
+  margin-right: 110px;
+}
+.footer_nav {
+  display: inline-block;
+}
+.footer_nav__list {
+  display: inline-block;
+  text-align: left;
+  max-width: 160px;
+  width: 100%;
+}
+.footer_nav__list li {
+  display: block;
+  margin-bottom: 20px;
+}
+.footer_nav__list li:first-child {
+  margin-bottom: 44px;
+}
+.footer_nav__list li:first-child span {
+  font-family: 'MuseoBold', Arial, sans-serif;
+}
+.footer_nav__list li a {
+  color: #a7a7a7;
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+.footer_nav__list li a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.footer_logo {
+  margin-bottom: 40px;
+}
+.footer_left_text p {
+  line-height: 20px;
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+.footer_bottom {
+  background-color: #111;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+.footer_bottom .site_name {
+  color: #f8de01;
+}
