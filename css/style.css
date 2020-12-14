@@ -52,6 +52,37 @@ section {
   margin: 0 auto;
 }
 
+.mobile-menu {
+  display: none;
+  width: 30px;
+  background-color: #222;
+  position: relative;
+  height: 27px;
+  color: #666;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.hamburger-menu {
+  display: inline-block;
+}
+
+.hamburger-menu >span {
+  display: block;
+  margin-top: 4px;
+  background: #f8de01;
+  height: 5px;
+  width: 30px;
+  border-radius: 2.5px;
+  position: relative;
+}
+
+.hamburger-menu >span:first-child {
+  over-flow: hidden;
+  position: relative;
+  top: 0;
+}
+
 *,
 *:before,
 *:after {
@@ -72,8 +103,11 @@ section {
   overflow: hidden;
   min-height: 100%;
 }
+
 .g_btn {
-  background: url("") no-repeat;
+  border: 1px solid black;
+  transform: skew(-30deg, 0); 
+  Font-style: normal;
   height: 55px;
   width: 200px;
   display: block;
